@@ -3,8 +3,6 @@
 
 (define lines (read-lines (open-input-file "data.txt")))
 
-; acc should be pair
-
 (define (parse lst)
   (define (go lst2 acc)
     (if (< (length lst2) 1 ) acc
